@@ -6,7 +6,7 @@ import Vue from 'vue';
 
 const vm = new Vue({
   el: '#app',
-  template: `<div id="app">{{messsage}}</div>`,
+  template: `<div id="app">{{message}}</div>`,
   data: {
     message: 'Hello Vue',
   },
