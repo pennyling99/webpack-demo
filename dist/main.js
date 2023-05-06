@@ -139,6 +139,16 @@ eval("/*!\n * Vue.js v2.7.14\n * (c) 2014-2022 Evan You\n * Released under the M
 
 /***/ }),
 
+/***/ "./src/App.vue":
+/*!*********************!*\
+  !*** ./src/App.vue ***!
+  \*********************/
+/***/ (() => {
+
+eval("throw new Error(\"Module parse failed: Unexpected token (1:0)\\nYou may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders\\n> <template>\\n| <div id=\\\"app\\\">\\n|   {{name}}\");\n\n//# sourceURL=webpack://getting-started-using-a-configuration/./src/App.vue?");
+
+/***/ }),
+
 /***/ "./src/index.js":
 /*!**********************!*\
   !*** ./src/index.js ***!
@@ -146,7 +156,7 @@ eval("/*!\n * Vue.js v2.7.14\n * (c) 2014-2022 Evan You\n * Released under the M
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.js\");\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n// document.getElementById('app').innerHTML = 'Hello, webpack lala';\n\nconst vm = new (vue__WEBPACK_IMPORTED_MODULE_2___default())({\n  el: '#app',\n  template: `<div id=\"app\">{{message}}</div>`,\n  data: {\n    message: 'Hello Vue',\n  },\n});\n\n\n//# sourceURL=webpack://getting-started-using-a-configuration/./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ \"./node_modules/lodash/lodash.js\");\n/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _style_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./style.css */ \"./src/style.css\");\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! vue */ \"./node_modules/vue/dist/vue.js\");\n/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(vue__WEBPACK_IMPORTED_MODULE_3__);\n/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./App.vue */ \"./src/App.vue\");\n/* harmony import */ var _App_vue__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_App_vue__WEBPACK_IMPORTED_MODULE_2__);\n\n\n\n\n\n// document.getElementById('app').innerHTML = 'Hello, webpack lala';\n\nconst vm = new (vue__WEBPACK_IMPORTED_MODULE_3___default())({\n  el: '#app',\n  data: {\n    message: 'Hello Vue',\n  },\n  render: (h) => h((_App_vue__WEBPACK_IMPORTED_MODULE_2___default())),\n});\n\n\n//# sourceURL=webpack://getting-started-using-a-configuration/./src/index.js?");
 
 /***/ })
 
