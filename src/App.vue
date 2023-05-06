@@ -1,20 +1,21 @@
 <template>
   <div id="app">
-    {{name}}
+    {{ name }}
   </div>
 </template>
 
 <script>
 export default {
-  data(){
+  data() {
     return {
-      name:'中山职业技术学院'
-    }    
-  }
-}
+      name: '中山职业技术学院',
+    };
+  },
+};
+</script>
 
 <style scoped>
 div {
-  background-color:orange;
+  background-color: goldenrod;
 }
 </style>
