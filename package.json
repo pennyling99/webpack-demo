@@ -18,8 +18,8 @@
     "css-loader": "^6.7.3",
     "serve": "^14.2.0",
     "style-loader": "^3.3.2",
-    "vue-template-compiler": "^2.7.14",
     "vue-loader": "^15.1.0",
+    "vue-template-compiler": "^2.7.14",
     "webpack": "^5.38.1",
     "webpack-cli": "^4.7.2"
   }
